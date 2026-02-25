@@ -10,6 +10,7 @@ fun main() {
     // to see how IntelliJ IDEA suggests fixing it.
     SelfIntroduction().selfIntroduction()
     println("Exercise 1b: Trunk-Based Development – Short-Lived Branch or Direct Commit")
+    println("Option B – Short-lived branch")
 
     for (i in 1..5) {
         //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
