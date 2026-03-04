@@ -1,5 +1,7 @@
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '2.1.10'
+    id 'application'
+    id 'idea'
 }
 
 group = 'hk.edu.hkbu.comp.comp4107.playground'
@@ -17,5 +19,14 @@ test {
     useJUnitPlatform()
 }
 kotlin {
-    jvmToolchain(23)
+    jvmToolchain(17)
+}
+// Add this section to specify your main class
+application {
+    // If your Main.kt is in the root package (no package declaration)
+    //mainClass = 'MainKt'
+
+    // If your Main.kt is in a package, use that instead, e.g.:
+     mainClass = 'chanchungyangrace.MainKt'
+    // mainClass = 'hk.edu.hkbu.comp.comp4107.playground.MainKt'
 }
