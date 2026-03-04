@@ -1,4 +1,4 @@
-package hk.edu.hkbu.comp.comp4107.playground.<your-name>
+package hk.edu.hkbu.comp.comp4107.playground.chanchungyangrace
 
 class SelfIntroduction {
     fun selfIntroduction() {
